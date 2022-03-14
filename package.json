@@ -1,10 +1,10 @@
 {
   "name": "first_backend",
   "version": "1.0.0",
+  "type": "commonjs",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "run": "npm start",
     "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -18,7 +18,10 @@
     "dotenv": "^16.0.0",
     "ejs": "^3.1.6",
     "mysql2": "^2.3.3",
-    "qs": "^6.10.3"
+    "qs": "^6.10.3",
+    "body-parser": "^1.19.2",
+    "express": "^4.17.3",
+    "serverless-http": "^2.7.0"
   },
   "devDependencies": {
     "body-parser": "^1.19.2",
