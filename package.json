@@ -21,7 +21,6 @@
     "qs": "^6.10.3",
     "body-parser": "*",
     "express": "*",
-    "serverless-http": "^2.7.0",
     "bcrypt": "^0.8.5"
   },
   "devDependencies": {
